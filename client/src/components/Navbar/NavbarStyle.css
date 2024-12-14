@@ -1,0 +1,20 @@
+.Navbar-items,.Navbar{
+    display: flex;
+}
+.Navbar{
+    justify-content: space-between;
+    background-color: #29292b;
+    padding: 1.1rem 5rem;
+}
+.logoI{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.Navbar-items{
+    gap: 20px;
+    list-style: none;
+}
+.Navbar-items li{
+    color: #a8a8a8;
+    cursor: pointer;
+}

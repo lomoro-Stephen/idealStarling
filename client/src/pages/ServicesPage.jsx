@@ -1,9 +1,9 @@
 // import React from 'react'
 
-export default function NotFoundPage() {
+export default function ServicesPage() {
   return (
     <div>
-       Error 404
+      pages
     </div>
   )
 }

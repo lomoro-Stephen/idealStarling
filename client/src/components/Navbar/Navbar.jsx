@@ -2,7 +2,7 @@ import logo1 from "../../assets/logo1.png"
 import "../Navbar/NavbarStyle.css";
 export default function Navbar() {
   return (
-      <div>
+      <header>
           <nav className="Navbar">
               <ul className="logoImage">
                   <img className="logoI" src={logo1} alt="" />
@@ -15,6 +15,6 @@ export default function Navbar() {
                   <li>Contact</li>
               </ul>
           </nav>
-    </div>
+    </header>
   )
 }

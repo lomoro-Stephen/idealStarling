@@ -1,9 +1,9 @@
 // import React from 'react'
 
-export default function TeamsPage() {
+export default function ContactPage() {
   return (
     <div>
-      <h3>our teams</h3>
+      
     </div>
   )
 }

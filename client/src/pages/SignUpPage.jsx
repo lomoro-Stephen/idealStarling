@@ -1,9 +1,9 @@
 // import React from 'react'
 
-export default function TeamsPage() {
+export default function SignUpPage() {
   return (
     <div>
-      <h3>our teams</h3>
+      <h3>SignUp Page</h3>
     </div>
   )
 }

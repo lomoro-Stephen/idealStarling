@@ -5,16 +5,19 @@ import './NavbarStyle.css';
 export default function Navbar() {
   return (
     <nav className="Navbar">
+      
       <ul className="logoImage">
-        <img className="logoI" src={logo1} alt="Logo" />
+        <span><img className="logoI" src={logo1} alt="Logo" /></span>
+        <span>Stephix Edu</span>
       </ul>
+
       <ul className="Navbar-items">
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/About">About</Link></li>
-        <li><Link to="/Services">Services</Link></li>
-        <li><Link to="/Contact">Contact</Link></li>
-        <li><Link to="/teams">Teams</Link></li>
-        <li><Link to="/terms">Terms</Link></li>
+        <Link to="/"><li>Home</li></Link>
+        <Link to="/About"><li>About</li></Link>
+        <Link to="/Services"><li>Services</li></Link>
+        <Link to="/Contact"><li>Contact</li></Link>
+        <Link to="/teams"><li>Teams</li></Link>
+        <Link to="/terms"><li>Terms</li></Link>
       </ul>
     </nav>
   );

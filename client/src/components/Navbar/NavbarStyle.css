@@ -6,9 +6,16 @@
     background-color: #29292b;
     padding: 1.1rem 5rem;
 }
+.logoImage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
 .logoI{
     width: 1.4rem;
     height: 1.4rem;
+
 }
 .Navbar-items{
     gap: 20px;

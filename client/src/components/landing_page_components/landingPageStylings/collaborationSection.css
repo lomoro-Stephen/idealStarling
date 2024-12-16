@@ -1,0 +1,33 @@
+.collaboration-wrapper{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(98, 11, 197);
+    padding: 20px;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 10px;
+    /* position: relative;
+    z-index: 35; */
+}
+
+.collaboration-Container{
+    width: 60%;
+    background-color:  #17171b;
+    padding: 20px;
+    position: relative;
+    z-index: 35;
+    margin:0 auto;
+    margin-top: -50px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+}
+.collaboration-partners { 
+    display: flex; justify-content: space-between; 
+    align-items: center; 
+    flex-wrap: wrap; 
+}
+.collaboration-partners img{
+    width: 10%;
+    height: 10%;
+}

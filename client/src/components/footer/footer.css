@@ -1,0 +1,23 @@
+footer{
+    background: #131212;
+    padding: 2rem;
+}
+.footer-content-wrap,.lower-footer-content ul{
+    display: flex;
+    width: 84%;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.footer-content-wrap ul, .lower-footer-content ul{
+    list-style: none;
+}
+.footer-content-wrap ul li,.lower-footer-content ul li {
+    font-size: 0.8rem;
+    color: #a8a8a8;
+}
+.lower-footer-content,.lower-footer-content ul{
+    padding-top: 2rem;
+}
+.lower-footer-content ul{
+    border-top: 1px solid #7a7a7a;
+}

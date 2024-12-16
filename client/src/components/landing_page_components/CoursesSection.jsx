@@ -24,7 +24,7 @@ const images = [
 export default function CoursesSection() {
   return (
     <div className='coursesSection'>
-      <h2>Courses and Pricing</h2>
+      <h2>Popular Courses</h2>
       <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet alias ea pariatur</p>
       <div className="cards">
         {images.map((image, index) => (
@@ -45,6 +45,9 @@ export default function CoursesSection() {
             </div>
           </div>
         ))}
+      </div>
+      <div className="moreBtn-wrap">
+         <button>Discover More</button>
       </div>
     </div>
   );

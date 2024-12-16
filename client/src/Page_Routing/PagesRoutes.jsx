@@ -7,6 +7,7 @@ import TeamsPage from '../pages/TeamsPage';
 import TermsPage from '../pages/TermsPage';
 import NotFoundPage from '../pages/NotFoundPage';
 import Navbar from '../components/Navbar/Navbar.jsx';
+import Footer from '../components/footer/footer.jsx';
 
 export default function PagesRoutes() {
   return (
@@ -22,6 +23,7 @@ export default function PagesRoutes() {
           <Route path="/terms" element={<TermsPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
+        <Footer />
       </>
     </BrowserRouter>
   )

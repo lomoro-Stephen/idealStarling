@@ -1,0 +1,55 @@
+.plans-cards{
+    width: 84%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.plans-section{
+    padding: 5rem 0;
+    color: black;
+    
+
+}
+
+.plan-card{
+    width: 100%;
+    padding: 2rem;
+    /* background: #e0e0e0; */
+    border-radius: 10px;
+    background: rgba(54, 54, 54, 0.2); 
+    backdrop-filter: blur(10px)saturate(200%); 
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #e0e0e0;
+}
+.plans-section button{
+    margin-top: 2rem;
+    width: 100%;
+}
+.features-title{
+    margin-top: 1.2rem;
+}
+.features{
+    font-size: 0.8rem;
+    /* margin-left: 1.2rem; */
+}
+.plans-section .section-title{
+    color: #e0e0e0;
+    text-align: center;
+}
+.section-Description{
+    color: #cccccc;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 0.8rem;
+
+}
+.featureTitle{
+    color: rgb(212, 212, 212);
+}
+.featureDescription{
+    color: #a8a8a8;
+    font-size: 0.8rem;
+}

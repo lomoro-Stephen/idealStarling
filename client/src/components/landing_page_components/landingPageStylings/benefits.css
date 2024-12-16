@@ -1,0 +1,15 @@
+*.benefits-section{
+    background: linear-gradient(45deg,rgb(18, 2, 77),rgba(51, 2, 129, 0.7));
+}
+.benefits-wrap{
+    color: #f7f7f7;
+    width: 84%;
+    margin: 0 auto;
+    padding: 5rem 0;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 100px;
+}
+.benefits-wrap h1{
+    font-size: 2.5rem;
+}

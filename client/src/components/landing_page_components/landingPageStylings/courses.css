@@ -1,7 +1,7 @@
 .coursesSection{
     margin-top: 10rem;
     width: 100%;
-    height: 100vh;
+    height: fit-content;
 }
 .cards{
     width: 80%;
@@ -10,11 +10,7 @@
     gap: 20px;
     padding-top: 2rem;
 }
-.card{
-    background: #ffffff;
-    padding: 0.5rem;
-    border-radius: 10px;
-}
+
 .card-img{
     width: 100%;
     height: 180px;
@@ -39,17 +35,39 @@
 .card-body h4{
     font-weight: 200;
     font-size: 16px;
-    color: #5e5e5e;
+    color: #bdbdbd;
 }
 .card-body h3{
-    color: #1b1b1b;
+    color: #bdbdbd;
     font-weight: 500;
 }
 .card-body .price{
-    color: #3a3a3a;
+    color: #b9b9b9;
 }
 .enrol-container{
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
+}
+.card{
+    background: #ffffff;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background: rgba(54, 54, 54, 0.2); 
+    backdrop-filter: blur(10px)saturate(200%); 
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: #e0e0e0;
+}
+.moreBtn-wrap{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.moreBtn-wrap button{
+
 }

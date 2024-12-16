@@ -6,6 +6,7 @@ export default function AboutSection() {
     <div className='about-section'>
       <p className='subtitle'>Discover Our Story</p>
       <h2 className='title'>Innovating Today, Transforming Tomorrow</h2>
+      <p className='subtitle'>Transforming lives, one lession at a Time</p>
       <div className='aboutUs_wrapper'>
           <div className='imageContainer'>
               <img src={img1} alt="About Us" />

@@ -1,0 +1,41 @@
+
+.statistic-desc{
+    width: 40%;
+}
+.statisticInfo{
+    width: 85%;
+    margin:0 auto;
+}
+.statistics {
+    width: 100%;
+    padding:1rem 5rem;
+    margin-top: 2rem;
+    background-color: #03041d;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 5px;
+  }
+  
+  .statistic {
+    text-align: center;
+    padding: 10px;
+    background-color: #e4e4e4;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .statistic span:first-child {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .statistic span:last-child {
+    display: block;
+    margin-top: 3px;
+    font-size: 14px;
+    color: #292828;
+  }
+  

@@ -8,6 +8,8 @@ import TermsPage from '../pages/TermsPage';
 import NotFoundPage from '../pages/NotFoundPage';
 import Navbar from '../components/Navbar/Navbar.jsx';
 import Footer from '../components/footer/footer.jsx';
+import CoursesPage from '../pages/CoursesPage.jsx';
+import Login from '../pages/Login.jsx';
 
 export default function PagesRoutes() {
   return (
@@ -21,6 +23,8 @@ export default function PagesRoutes() {
           <Route path="/Contact" element={<ContactPage />} />
           <Route path="/teams" element={<TeamsPage />} />
           <Route path="/terms" element={<TermsPage />} />
+          <Route path="/courses" element={<CoursesPage />} />
+          <Route path="/login" element={<Login />} />
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
         <Footer />

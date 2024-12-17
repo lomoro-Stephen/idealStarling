@@ -1,0 +1,54 @@
+.reasons-wrap {
+    padding: 5rem 0;
+  }
+  .reasons-wrap h2{
+    text-align: center;
+  }
+  .reasons-cards {
+    width: 84%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: #fff;
+    gap: 10px;
+  }
+  
+  .reason-card {
+    border-radius: 10px;
+    background: rgba(54, 54, 54, 0.2); 
+    backdrop-filter: blur(10px)saturate(200%); 
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px 5px;
+  }
+  
+  .card-icon {
+    font-size: 1.5rem;
+    display:flex;
+    gap: 0.6rem;
+    padding-left: 10px;
+    color: #00d300;
+  }
+  .card-icon h4{
+    font-size: 1.2rem;
+    color: #d8d8d8;
+    
+  }
+  
+  .card-body-wrap{
+    padding: 10px;
+  }
+  .card-body-wrap p{
+    font-size: 0.8rem;
+    color: #999999;
+  }
+  .text-button{
+    font-size: 0.8rem;
+  }
+  .btn-wrapper{
+    display: flex;
+    justify-self: end;
+    gap: 10px;
+    align-items: center;
+  }

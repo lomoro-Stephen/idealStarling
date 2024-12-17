@@ -14,10 +14,15 @@ export default function Navbar() {
       <ul className="Navbar-items">
         <Link to="/"><li>Home</li></Link>
         <Link to="/About"><li>About</li></Link>
+        <Link to="/courses"><li>Courses</li></Link>
         <Link to="/Services"><li>Services</li></Link>
-        <Link to="/Contact"><li>Contact</li></Link>
+
         <Link to="/teams"><li>Teams</li></Link>
         <Link to="/terms"><li>Terms</li></Link>
+      </ul>
+      <ul className="Navbar-items">
+        <Link to="/Contact"><li>Contact</li></Link>
+        <Link to="/login"><li>Login</li></Link>
       </ul>
     </nav>
   );

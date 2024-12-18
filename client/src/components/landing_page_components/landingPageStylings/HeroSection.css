@@ -9,7 +9,6 @@
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
-    /*  */
 }
 .HeroSection::before{
     position: absolute;
@@ -34,3 +33,7 @@
 .title{
     font-size: 2rem;
 }
+/*  media query for small screens*/
+/* @media only screen and (max-width: 768px) {
+   
+} */

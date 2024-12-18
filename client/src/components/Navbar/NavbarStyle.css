@@ -25,3 +25,22 @@
     color: #e6e6e6;
     cursor: pointer;
 }
+.mobileBars{
+    display: none;
+    cursor: pointer;
+}
+
+/* media query for small screens */
+@media only screen and (max-width: 768px) {
+    .Navbar{
+        justify-content: space-between;
+        background-color: #29292b;
+        padding: 1.1rem 1.4rem;
+    }
+    .Navbar-items{
+        display: none;
+    }
+    .mobileBars{
+        display: flex;
+    }
+}

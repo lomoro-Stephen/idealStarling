@@ -51,4 +51,8 @@
     font-size: 0.7rem;
     color: #c4c4c4;
   }
+  .category-card:hover { 
+    box-shadow: 0 4px 8px rgba(2, 122, 56, 0.2);
+    cursor: pointer;
+  }
   

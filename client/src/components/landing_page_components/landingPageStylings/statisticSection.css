@@ -1,41 +1,112 @@
+.statistic-desc {
+  width: 40%;
+}
 
-.statistic-desc{
-    width: 40%;
+.statisticInfo {
+  width: 85%;
+  margin: 0 auto;
 }
-.statisticInfo{
-    width: 85%;
-    margin:0 auto;
-}
+
 .statistics {
-    width: 100%;
-    padding:1rem 5rem;
-    margin-top: 2rem;
-    background-color: #03041d;
-    display: grid;
-    grid-template-columns: repeat(6,1fr);
-    gap: 5px;
+  width: 100%;
+  padding: 1rem 5rem;
+  margin-top: 2rem;
+  background-color: #03041d;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 5px;
+}
+
+.statistic {
+  text-align: center;
+  padding: 10px;
+  background-color: #e4e4e4;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.statistic span:first-child {
+  display: block;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.statistic span:last-child {
+  display: block;
+  margin-top: 3px;
+  font-size: 14px;
+  color: #292828;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .statistic-desc {
+      width: 95%;
   }
-  
+  .statisticInfo {
+      width: 95%;
+  }
+  .statistics {
+      grid-template-columns: repeat(1, 1fr);
+      padding: 1.2rem;
+  }
   .statistic {
-    text-align: center;
-    padding: 10px;
-    background-color: #e4e4e4;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    padding: 0px;
   }
-  
-  .statistic span:first-child {
-    display: block;
-    font-size: 24px;
-    font-weight: bold;
-    color: #333;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .statistic-desc {
+      width: 90%;
   }
-  
-  .statistic span:last-child {
-    display: block;
-    margin-top: 3px;
-    font-size: 14px;
-    color: #292828;
+  .statisticInfo {
+      width: 90%;
   }
-  
+  .statistics {
+      grid-template-columns: repeat(3, 1fr);
+      padding: 0;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .statistic-desc {
+      width: 85%;
+  }
+  .statisticInfo {
+      width: 85%;
+  }
+  .statistics {
+      grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .statistic-desc {
+      width: 80%;
+  }
+  .statisticInfo {
+      width: 80%;
+  }
+  .statistics {
+      grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .statistic-desc {
+      width: 75%;
+  }
+  .statisticInfo {
+      width: 75%;
+  }
+  .statistics {
+      grid-template-columns: repeat(6, 1fr);
+  }
+}

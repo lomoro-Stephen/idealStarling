@@ -1,15 +1,82 @@
-*.benefits-section{
-    background: linear-gradient(45deg,rgb(18, 2, 77),rgba(51, 2, 129, 0.7));
+.benefits-section {
+    background: linear-gradient(45deg, rgb(18, 2, 77), rgba(51, 2, 129, 0.7));
 }
-.benefits-wrap{
+
+.benefits-wrap {
     color: #f7f7f7;
     width: 84%;
     margin: 0 auto;
     padding: 5rem 0;
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 100px;
 }
-.benefits-wrap h1{
+
+.benefits-wrap h1 {
     font-size: 2.5rem;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .benefits-wrap {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 2rem 0;
+    }
+
+    .benefits-wrap h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .benefits-wrap {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        padding: 2rem 0;
+    }
+
+    .benefits-wrap h1 {
+        font-size: 2rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .benefits-wrap {
+        grid-template-columns: 1fr 1fr;
+        gap: 50px;
+        padding: 3rem 0;
+    }
+
+    .benefits-wrap h1 {
+        font-size: 2.2rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .benefits-wrap {
+        grid-template-columns: 1fr 1fr;
+        gap: 75px;
+        padding: 4rem 0;
+    }
+
+    .benefits-wrap h1 {
+        font-size: 2.4rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .benefits-wrap {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 100px;
+        padding: 5rem 0;
+    }
+
+    .benefits-wrap h1 {
+        font-size: 2.5rem;
+    }
 }

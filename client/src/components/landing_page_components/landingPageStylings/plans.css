@@ -1,59 +1,131 @@
-.plans-cards{
+.plans-cards {
     width: 84%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     gap: 10px;
 }
-.plans-section{
+
+.plans-section {
     padding: 5rem 0;
     color: black;
-    
-
 }
 
-.plan-card{
+.plan-card {
     width: 100%;
     padding: 2rem;
-    /* background: #e0e0e0; */
     border-radius: 10px;
-    background: rgba(54, 54, 54, 0.2); 
-    backdrop-filter: blur(10px)saturate(200%); 
+    background: rgba(54, 54, 54, 0.2);
+    backdrop-filter: blur(10px) saturate(200%);
     -webkit-backdrop-filter: blur(10px) saturate(200%);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: #e0e0e0;
 }
-.plans-section button{
+
+.plans-section button {
     margin-top: 2rem;
     width: 100%;
 }
-.features-title{
+
+.features-title {
     margin-top: 1.2rem;
 }
-.features{
+
+.features {
     font-size: 0.8rem;
-    /* margin-left: 1.2rem; */
 }
-.plans-section .section-title{
+
+.plans-section .section-title {
     color: #e0e0e0;
     text-align: center;
 }
-.section-Description{
+
+.section-Description {
     color: #cccccc;
     text-align: center;
     margin-bottom: 2rem;
     font-size: 0.8rem;
-
 }
-.featureTitle{
+
+.featureTitle {
     color: rgb(212, 212, 212);
 }
-.featureDescription{
+
+.featureDescription {
     color: #a8a8a8;
     font-size: 0.8rem;
 }
-.feature-icon { 
-    color: rgb(221, 217, 4); 
-    margin-right: 5px; 
+
+.feature-icon {
+    color: rgb(221, 217, 4);
+    margin-right: 5px;
+}
+
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .plans-cards {
+        flex-direction: column;
+        width: 95%;
+    }
+
+    .plan-card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .plans-cards {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .plan-card {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .plans-cards {
+        flex-direction: row;
+        width: 84%;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .plan-card {
+        width: 100%;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .plans-cards {
+        flex-direction: row;
+        width: 84%;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .plan-card {
+        width: 100%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .plans-cards {
+        flex-direction: row;
+        width: 84%;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .plan-card {
+        width: 100%;
+    }
 }

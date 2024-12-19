@@ -1,9 +1,10 @@
-.coursesSection{
+.coursesSection {
     margin-top: 10rem;
     width: 100%;
     height: fit-content;
 }
-.cards{
+
+.cards {
     width: 80%;
     display: flex;
     margin: 0 auto;
@@ -11,56 +12,66 @@
     padding-top: 2rem;
 }
 
-.card-img{
+.card-img {
     width: 100%;
     height: 180px;
 }
-.card-img img{
-    width:100%;
+
+.card-img img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.coursesSection h2{
+
+.coursesSection h2 {
     font-size: 2rem;
     text-align: center;
 }
-.coursesSection p{
+
+.coursesSection p {
     text-align: center;
     font-size: 0.8rem;
     color: #c0c0c0;
 }
-.card-body{
+
+.card-body {
     padding: 1.2rem 0rem;
 }
-.card-body h4{
+
+.card-body h4 {
     font-weight: 200;
     font-size: 16px;
     color: #bdbdbd;
 }
-.card-body h3{
+
+.card-body h3 {
     color: #bdbdbd;
     font-weight: 500;
 }
-.card-body .price{
+
+.card-body .price {
     color: #b9b9b9;
 }
-.enrol-container{
+
+.enrol-container {
     margin-top: 2rem;
     display: flex;
     justify-content: space-between;
 }
-.card{
+
+.card {
     background: #ffffff;
     padding: 0.5rem;
     border-radius: 10px;
-    background: rgba(54, 54, 54, 0.2); 
-    backdrop-filter: blur(10px)saturate(200%); 
+    background: rgba(54, 54, 54, 0.2);
+    backdrop-filter: blur(10px)saturate(200%);
     -webkit-backdrop-filter: blur(10px) saturate(200%);
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 1px solid rgba(255, 255, 255, 0.3);
     color: #e0e0e0;
 }
-.moreBtn-wrap{
+
+.moreBtn-wrap {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -68,6 +79,100 @@
     align-items: center;
     padding: 2rem;
 }
-.moreBtn-wrap button{
 
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .cards {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .card-img {
+        height: 150px;
+    }
+
+    .coursesSection h2 {
+        font-size: 1.5rem;
+    }
+
+    .coursesSection p {
+        font-size: 0.7rem;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .cards {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .card-img {
+        height: 160px;
+    }
+
+    .coursesSection h2 {
+        font-size: 1.7rem;
+    }
+
+    .coursesSection p {
+        font-size: 0.75rem;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .cards {
+        width: 80%;
+    }
+
+    .card-img {
+        height: 170px;
+    }
+
+    .coursesSection h2 {
+        font-size: 1.8rem;
+    }
+
+    .coursesSection p {
+        font-size: 0.8rem;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .cards {
+        width: 70%;
+    }
+
+    .card-img {
+        height: 180px;
+    }
+
+    .coursesSection h2 {
+        font-size: 2rem;
+    }
+
+    .coursesSection p {
+        font-size: 0.85rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .cards {
+        width: 84%;
+    }
+
+    .card-img {
+        height: 180px;
+    }
+
+    .coursesSection h2 {
+        font-size: 2rem;
+    }
+
+    .coursesSection p {
+        font-size: 0.9rem;
+    }
 }

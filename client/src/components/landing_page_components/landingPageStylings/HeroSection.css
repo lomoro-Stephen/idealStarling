@@ -33,7 +33,57 @@
 .title{
     font-size: 2rem;
 }
-/*  media query for small screens*/
-/* @media only screen and (max-width: 768px) {
-   
-} */
+
+/* media queries */
+
+/* Extra small devices (phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .title { 
+        font-size: 1.5rem; 
+    } 
+    .description { 
+        width: 100%; 
+        font-size: 0.8rem; 
+    } 
+}
+  /* Small devices (landscape phones, 576px and up) */ 
+  @media (min-width: 576px) and (max-width: 767.98px) { 
+    .title { 
+        font-size: 1.8rem; 
+    } 
+    .description { width: 100%; 
+        font-size: 0.85rem; 
+    } 
+} 
+
+/* Medium devices (tablets, 768px and up) */ 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .title { 
+    font-size: 2rem; 
+   } 
+.description { 
+    width: 90%; 
+    font-size: 0.9rem; 
+  } 
+} 
+/* Large devices (desktops, 992px and up) */ 
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .title { 
+        font-size: 2.5rem; 
+    } 
+    .description { 
+        width: 80%; 
+        font-size: 1rem; 
+    } 
+}
+
+/* Extra large devices (large desktops, 1200px and up) */ 
+@media (min-width: 1200px) { 
+    .title { 
+        font-size: 3rem; 
+    } 
+    .description { 
+        width: 70%; 
+        font-size: 1.1rem; 
+    } 
+}

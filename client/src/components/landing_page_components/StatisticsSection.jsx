@@ -6,7 +6,8 @@ export default function StatisticsSection() {
           <div className="statisticInfo">
             <h2 className='statisticTitle'>Our Achievements</h2>
             <p className='statistic-desc'>
-                Discover the milestones we have reached in our journey to provide quality education and training.
+              Discover the milestones we have reached in our journey to provide quality
+              education and training.
             </p>
           </div>
       <div className="statistics">

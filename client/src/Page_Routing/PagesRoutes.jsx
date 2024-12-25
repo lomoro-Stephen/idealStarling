@@ -9,7 +9,8 @@ import NotFoundPage from '../pages/NotFoundPage';
 import Navbar from '../components/Navbar/Navbar.jsx';
 import Footer from '../components/footer/footer.jsx';
 import CoursesPage from '../pages/CoursesPage.jsx';
-import Login from '../pages/Login.jsx';
+import Login from '../components/auth/Login.jsx';
+import SignUp from '../components/auth/Signup.jsx';
 import GraphicsPage from '../pages/subPages/GraphicsPage';
 import BackEndCoursesPage from '../pages/subPages/BackEndCoursesPage';
 import Webdevelopment from '../pages/subPages/Webdevelopment.jsx';
@@ -34,6 +35,7 @@ export default function PagesRoutes() {
           <Route path="/terms" element={<TermsPage />} />
           <Route path="/courses" element={<CoursesPage />} />
           <Route path="/login" element={<Login />} />
+          <Route path="/SignUp" element={<SignUp />} />
           <Route path="/graphics-design" element={<GraphicsPage/>}></Route>
           <Route path="/digital-marketing" element={<DigitalMarketingPage/>}></Route>
           <Route path="/email-marketing" element={<DigitalMarketingPage/>}></Route>
